@@ -1,0 +1,12 @@
+.card-scale:hover {
+  transform: scale(1.05);
+}
+
+.cardImg {
+  background-color: #212529;
+}
+
+.display-card {
+  display: flex;
+  justify-content: center;
+}

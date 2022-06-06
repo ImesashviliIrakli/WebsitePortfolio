@@ -1,0 +1,19 @@
+.contact-card-container {
+  background-color: #191919;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding-bottom: 60px;
+
+  .contact-card-header {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+  }
+
+  .contact-card-holder {
+    display: flex;
+    justify-content: center;
+  }
+}

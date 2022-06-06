@@ -1,0 +1,28 @@
+.navigation-container {
+  background-color: #2b2b2b;
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 3px solid rgb(255, 136, 0);
+
+  .navigation-header {
+    display: flex;
+  }
+
+  .navigation-links {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    .nav-link {
+      color: white;
+      margin-left: 10px;
+    }
+    .nav-link:hover {
+      color: black;
+      background-color: white;
+    }
+  }
+}

@@ -1,0 +1,78 @@
+.info {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+  .info {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+.about {
+  font-size: 20px;
+}
+a {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
+
+a:hover {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
+
+.iconSize {
+  max-width: 20%;
+}
+
+.navigateButton {
+  border: 2px solid;
+  border-color: #ff0000;
+}
+
+.navigateButton {
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid #1a1a1a;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #3b3b3b;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(0.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  will-change: transform;
+  margin: 10px 5px;
+}
+
+.navigateButton:disabled {
+  pointer-events: none;
+}
+
+.navigateButton:hover {
+  color: #fff;
+  background-color: #1a1a1a;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.navigateButton:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
