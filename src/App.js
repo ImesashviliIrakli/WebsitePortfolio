@@ -3,7 +3,7 @@ import NavigationBar from './routes/navigation/NavigationBar.component';
 import MainPage from './routes/main-page/main-page.component';
 import SkillsPage from './routes/skills-page/skills-page.component';
 import ExperiencePage from './routes/experience-page/experience-page.component';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
@@ -12,19 +12,13 @@ function App() {
         <NavigationBar />
 
         <div className="content">
-          <Switch>
-            <Route exact path="/">
-              <MainPage />
-            </Route>
+          <Routes>
+            <Route exact path="/" element={<MainPage />} />
 
-            <Route path="/skills">
-              <SkillsPage />
-            </Route>
+            <Route path="/skills" element={<SkillsPage />} />
 
-            <Route path="/experience">
-              <ExperiencePage />
-            </Route>
-          </Switch>
+            <Route path="/experience" element={<ExperiencePage />} />
+          </Routes>
         </div>
       </div>
     </Router>
