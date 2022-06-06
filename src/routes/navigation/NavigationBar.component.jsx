@@ -8,22 +8,20 @@ const NavigationBar = () => {
     <div>
       <Navbar className="navigation-container" bg="dark" variant="dark" expand="lg">
         <Container>
-          <Navbar.Brand className="navigation-header">
-            <Link to="/">Irakli Imesashvili</Link>
-          </Navbar.Brand>
+          <Navbar.Brand className="navigation-header">Irakli Imesashvili</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
               <div className="row navigation-links">
-                <Nav.Link className="col nav-link">
-                  <Link to="/">About</Link>
-                </Nav.Link>
-                <Nav.Link className="col nav-link">
-                  <Link to="/skills">Skills</Link>
-                </Nav.Link>
-                <Nav.Link className="col nav-link">
-                  <Link to="/experience">Experience</Link>
-                </Nav.Link>
+                <Link className="col nav-link" to="/">
+                  About
+                </Link>
+                <Link className="col nav-link" to="/skills">
+                  Skills
+                </Link>
+                <Link className="col nav-link" to="/experience">
+                  Experience
+                </Link>
               </div>
             </Nav>
           </Navbar.Collapse>

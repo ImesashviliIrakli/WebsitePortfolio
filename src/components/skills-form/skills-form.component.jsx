@@ -3,7 +3,11 @@ import 'animate.css/animate.css';
 import './skills-form.styles.css';
 
 const SkillsForm = ({ source, cardTitle, cardText }) => {
-  const cardTexts = cardText.map((text) => <p className="me-2">{text}</p>);
+  const cardTexts = cardText.map((text, index) => (
+    <p key={index} className="me-2">
+      {text}
+    </p>
+  ));
   return (
     <div className="mt-4 card-scale col d-flex justify-content-center animate__animated animate__fadeInDown">
       <Card style={{ width: '20rem', borderColor: 'black' }} className="card-scale">
@@ -14,9 +18,7 @@ const SkillsForm = ({ source, cardTitle, cardText }) => {
         <Card.Body>
           <Card.Title className="display-card">{cardTitle}</Card.Title>
           <br />
-          <Card.Text>
-            <div className="display-card">{cardTexts}</div>
-          </Card.Text>
+          <div className="display-card">{cardTexts}</div>
         </Card.Body>
       </Card>
     </div>
