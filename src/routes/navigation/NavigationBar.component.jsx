@@ -8,7 +8,9 @@ const NavigationBar = () => {
     <div>
       <Navbar className="navigation-container" bg="dark" variant="dark" expand="lg">
         <Container>
-          <Navbar.Brand className="navigation-header">Irakli Imesashvili</Navbar.Brand>
+          <div className="navigation-header">
+            <h5 className="nav-header-name">Irakli Imesashvili</h5>
+          </div>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">

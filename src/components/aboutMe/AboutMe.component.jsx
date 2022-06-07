@@ -65,6 +65,14 @@ const AboutMe = () => {
           >
             Skills
           </Link>
+
+          <Link
+            to="/experience"
+            className="col-2 d-flex justify-content-center navigateButton"
+            role="button"
+          >
+            Experience
+          </Link>
         </div>
       </div>
     </div>

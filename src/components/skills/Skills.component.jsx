@@ -46,12 +46,6 @@ function Skills() {
           cardTitle="Source Control"
           cardText={['Git,', 'Github']}
         />
-
-        <SkillsForm
-          source={allLogos.officeLogo}
-          cardTitle="Microsoft Office"
-          cardText={['Excel,', 'Access,', 'Word,', 'Powerpoint']}
-        />
       </div>
     </div>
   );

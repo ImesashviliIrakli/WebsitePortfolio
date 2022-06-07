@@ -7,8 +7,15 @@
   justify-content: space-between;
   border-bottom: 3px solid rgb(255, 136, 0);
 
+  .navbar-toggler {
+    border: 2px solid;
+  }
   .navigation-header {
-    display: flex;
+    padding: 10px;
+
+    .nav-header-name {
+      margin: auto;
+    }
   }
 
   .navigation-links {
@@ -24,5 +31,24 @@
       color: black;
       background-color: white;
     }
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .navigation-links {
+    margin-top: 5px;
+    border-top: 2px solid rgb(255, 136, 0);
+  }
+  .nav-link {
+    text-align: center;
+    margin-top: 12px;
+    margin-right: 12px;
+    padding-top: 5px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .nav-link {
+    margin-right: 12px;
   }
 }
