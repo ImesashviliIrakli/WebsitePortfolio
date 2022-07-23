@@ -1,12 +1,17 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
-import { Navbar, Container, Nav } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
-import './Navigation.styles.scss';
+import "bootstrap/dist/css/bootstrap.min.css";
+import { Navbar, Container, Nav } from "react-bootstrap";
+import { Link } from "react-router-dom";
+import "./Navigation.styles.scss";
 
 const NavigationBar = () => {
   return (
     <div>
-      <Navbar className="navigation-container" bg="dark" variant="dark" expand="lg">
+      <Navbar
+        className="navigation-container"
+        bg="dark"
+        variant="dark"
+        expand="lg"
+      >
         <Container>
           <div className="navigation-header">
             <h5 className="nav-header-name">Irakli Imesashvili</h5>
@@ -23,6 +28,9 @@ const NavigationBar = () => {
                 </Link>
                 <Link className="col nav-link" to="/experience">
                   Experience
+                </Link>
+                <Link className="col nav-link" to="/education-certifications">
+                  Education
                 </Link>
               </div>
             </Nav>
