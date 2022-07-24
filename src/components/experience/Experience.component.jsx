@@ -8,13 +8,27 @@ function Experience() {
       <div className="info">
         <div className="experience-container">
           <h1>Experience</h1>
+
+          <div className="timeline">
+            <div className="timeline-card timeline-card-primary shadow-sm">
+              <div className="card-body">
+                <div className="h5 mb-1">Software Engineer</div>
+                <h6 className="text-muted">at Epam systems</h6>
+                <div className="text-muted text-small mb-2">
+                  JUL/2022 - Present
+                </div>
+                <ul></ul>
+              </div>
+            </div>
+          </div>
+
           <div className="timeline">
             <div className="timeline-card timeline-card-success shadow-sm">
               <div className="card-body">
                 <div className="h5 mb-1">Junior Software Developer</div>
                 <h6 className="text-muted">at Betsolutions</h6>
                 <div className="text-muted text-small mb-2">
-                  Feb, 2021 - Present
+                  FEB/2021 - JUL/2022
                 </div>
                 <ul>
                   <li>
@@ -51,7 +65,7 @@ function Experience() {
                 <div className="h5 mb-1">.Net development training</div>
                 <h6 className="text-muted">at Epam systems</h6>
                 <div className="text-muted text-small mb-2">
-                  Nov, 2021 - Apr, 2022
+                  NOV/2021 - APR/2022
                 </div>
                 <ul>
                   <li>
