@@ -53,7 +53,7 @@ const Certificiations = () => {
                   <h6 className="text-muted">Hacker rank</h6>
                   <div className="text-muted text-small mb-2">JAN/2022</div>
                   <a
-                    className="col-6 navigateButton"
+                    className="col-lg-6 col-8 navigateButton"
                     href="https://www.hackerrank.com/certificates/1810861fea69"
                   >
                     Credential URL
@@ -72,13 +72,13 @@ const Certificiations = () => {
               <div className="row">
                 <div className="col-12 col-md-6">
                   <div className="h5 mb-1">
-                    SQL (Basic) and SQL (Intermediate){" "}
+                    SQL (Basic) and SQL (Intermediate)
                   </div>
                   <h6 className="text-muted">Hacker rank</h6>
                   <div className="text-muted text-small mb-2">DEC/2021</div>
                   <div>
                     <a
-                      className="col-6navigateButton"
+                      className="col-lg-6 col-8 navigateButton"
                       href="https://www.hackerrank.com/certificates/104484e27a90"
                     >
                       SQL (Basic) Credential URL
@@ -87,7 +87,7 @@ const Certificiations = () => {
 
                   <div>
                     <a
-                      className="col-6 navigateButton"
+                      className="col-lg-6 col-8 navigateButton"
                       href="https://www.hackerrank.com/certificates/a101071c1473"
                     >
                       SQL (Intermediate) Credential URL
