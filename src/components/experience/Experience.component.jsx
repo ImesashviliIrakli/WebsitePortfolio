@@ -10,7 +10,7 @@ function Experience() {
           <h1>Experience</h1>
 
           <div className="timeline">
-            <div className="timeline-card timeline-card-primary shadow-sm">
+            <div className="timeline-card timeline-card-primary card shadow-sm">
               <div className="card-body">
                 <div className="h5 mb-1">Software Engineer</div>
                 <h6 className="text-muted">at Epam systems</h6>
@@ -23,7 +23,7 @@ function Experience() {
           </div>
 
           <div className="timeline">
-            <div className="timeline-card timeline-card-success shadow-sm">
+            <div className="timeline-card timeline-card-success card shadow-sm">
               <div className="card-body">
                 <div className="h5 mb-1">Junior Software Developer</div>
                 <h6 className="text-muted">at Betsolutions</h6>
