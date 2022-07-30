@@ -28,7 +28,7 @@ const Certificiations = () => {
                         and ASP.NET Core.
                       </li>
                       <li>
-                        Created several Web Api's and console applications
+                        Created several Web Api's and console applications.
                       </li>
                       <li>
                         Had to work on many practice tasks and basic algorithms

@@ -1,10 +1,10 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
-import { AiFillInstagram, AiFillGithub } from 'react-icons/ai';
-import { SiDiscord } from 'react-icons/si';
-import { BsLinkedin, BsFacebook } from 'react-icons/bs';
-import { Link } from 'react-router-dom';
-import 'animate.css/animate.css';
-import './AboutMe.styles.scss';
+import "bootstrap/dist/css/bootstrap.min.css";
+import { AiFillInstagram, AiFillGithub } from "react-icons/ai";
+import { SiDiscord } from "react-icons/si";
+import { BsLinkedin, BsFacebook } from "react-icons/bs";
+import { Link } from "react-router-dom";
+import "animate.css/animate.css";
+import "./AboutMe.styles.scss";
 
 const AboutMe = () => {
   return (
@@ -12,17 +12,22 @@ const AboutMe = () => {
       <div className="info justify-content-center">
         <div className="animate__animated animate__fadeInDown">
           <h1 className="aboutHeader d-flex justify-content-center">Hello,</h1>
-          <h2 className="aboutHeader d-flex justify-content-center">I'm Irakli Imesashvili</h2>
-          <h3 className="aboutHeader d-flex justify-content-center">.NET Developer</h3>
+          <h2 className="aboutHeader d-flex justify-content-center">
+            I'm Irakli Imesashvili
+          </h2>
+          <h3 className="aboutHeader d-flex justify-content-center">
+            Software Engineer
+          </h3>
 
           <br />
 
           <div className="row d-flex justify-content-center">
             <p className="col-8 about">
-              Enthusiastic Junior Software Engineer, eager to contribute to team success through
-              hard work, attention to detail and excellent organizational skills. Clear
-              understanding of SQL,C#/.Net and Angular/React and training in SQl, C#/.Net. Motivated
-              to learn and grow.
+              Enthusiastic Software Engineer, eager to contribute to team
+              success through hard work and dedication, attention to detail and
+              excellent organizational skills. Clear understanding of
+              SQL,C#/.Net and React and training in SQl, .Net/C#. Motivated to
+              learn and grow.
             </p>
           </div>
         </div>
@@ -34,7 +39,10 @@ const AboutMe = () => {
           >
             <BsLinkedin size={42} />
           </a>
-          <a className="col-2 col-md-1 navigateButton" href="https://github.com/ImesashviliIrakli">
+          <a
+            className="col-2 col-md-1 navigateButton"
+            href="https://github.com/ImesashviliIrakli"
+          >
             <AiFillGithub size={42} />
           </a>
           <a
