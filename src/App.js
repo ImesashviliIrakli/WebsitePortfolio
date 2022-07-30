@@ -5,10 +5,18 @@ import SkillsPage from "./routes/skills-page/skills-page.component";
 import ExperiencePage from "./routes/experience-page/experience-page.component";
 import EducationCertificationsPage from "./routes/education-certifications-page/education-certifications-page.component";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 function App() {
   return (
     <Router>
+      <div className="application">
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>Irakli Imesashvili</title>
+          <link rel="canonical" href="http://mysite.com/example" />
+        </Helmet>
+      </div>
       <div>
         <NavigationBar />
 

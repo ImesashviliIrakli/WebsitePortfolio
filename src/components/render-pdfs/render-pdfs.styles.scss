@@ -17,7 +17,7 @@
 .sql-basic-container {
   .react-pdf__Page__canvas {
     margin: 0 auto;
-    padding: 10px;
+    padding: 5px;
     width: 250px !important;
     height: 180px !important;
   }
@@ -26,8 +26,12 @@
 .sql-intermediate-container {
   .react-pdf__Page__canvas {
     margin: 0 auto;
-    padding: 10px;
+    padding: 5px;
     width: 250px !important;
     height: 180px !important;
   }
+}
+
+.react-pdf__Page__textContent {
+  display: none;
 }

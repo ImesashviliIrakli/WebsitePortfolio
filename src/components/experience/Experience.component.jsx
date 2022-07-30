@@ -58,29 +58,6 @@ function Experience() {
               </div>
             </div>
           </div>
-
-          <div className="timeline ">
-            <div className="timeline-card timeline-card-primary shadow-sm">
-              <div className="card-body">
-                <div className="h5 mb-1">.Net development training</div>
-                <h6 className="text-muted">at Epam systems</h6>
-                <div className="text-muted text-small mb-2">
-                  NOV/2021 - APR/2022
-                </div>
-                <ul>
-                  <li>
-                    Learned basic, intermediate and advanced topics in C# and
-                    ASP.Net Core.
-                  </li>
-                  <li>Created several Web Apis and console applications.</li>
-                  <li>
-                    Had to write many pracite tasks and basic algorithms like
-                    sorting.
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </div>
