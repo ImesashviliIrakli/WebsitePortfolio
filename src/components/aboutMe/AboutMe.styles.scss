@@ -2,17 +2,24 @@
   margin-top: 100px;
   margin-bottom: 50px;
 }
-
+.about {
+  font-size: 20px;
+  text-align: justify;
+}
 @media only screen and (max-width: 600px) {
   .info {
     margin-top: 20px;
     margin-bottom: 20px;
   }
 }
-.about {
-  font-size: 20px;
-  text-align: justify;
+
+@media only screen and (max-width: 768px) {
+  .about {
+    font-size: 20px;
+    text-align: left;
+  }
 }
+
 a {
   color: inherit; /* blue colors for links too */
   text-decoration: inherit; /* no underline */

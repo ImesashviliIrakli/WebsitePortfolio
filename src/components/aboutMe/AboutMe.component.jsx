@@ -81,6 +81,13 @@ const AboutMe = () => {
           >
             Experience
           </Link>
+          <Link
+            to="/education-certifications"
+            className="col-2 d-flex justify-content-center navigateButton"
+            role="button"
+          >
+            Education
+          </Link>
         </div>
       </div>
     </div>
