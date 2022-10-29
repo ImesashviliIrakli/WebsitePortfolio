@@ -63,3 +63,22 @@
     }
   }
 }
+
+.image-cont {
+  display: flex;
+  justify-content: center;
+}
+
+.microsoft-cert {
+  width: 200px;
+  height: 200px;
+}
+
+.credly-link {
+  color: rgb(23, 112, 230);
+}
+
+.credly-link:hover {
+  color: rgb(23, 112, 230);
+  text-decoration: underline;
+}

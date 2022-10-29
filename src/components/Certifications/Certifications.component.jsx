@@ -6,6 +6,7 @@ import {
   CSharpBasicPdf,
   SQLBasicPdf,
   SQLIntermediatePdf,
+  MicrosoftCert,
 } from "../render-pdfs/render-pdfs.component";
 
 const Certificiations = () => {
@@ -15,6 +16,34 @@ const Certificiations = () => {
         <h2 className="mt-3">Certifications</h2>
         <div className="timeline ">
           <div className="timeline-card timeline-card-success card shadow-sm">
+            <div className="card-body">
+              <div className="row">
+                <div className="col-12 col-md-6">
+                  <div className="h5 mb-1">
+                    Microsoft Certified: Azure Fundamentals
+                  </div>
+                  <h6 className="text-muted">Microsoft</h6>
+                  <div className="text-muted text-small mb-2">OCT/2022</div>
+                  <a
+                    className="col-6 navigateButton"
+                    href="https://www.credly.com/badges/bc6fa5a3-5043-4534-9b80-f0e7555dd51d/public_url"
+                  >
+                    Credly profile
+                  </a>
+                </div>
+
+                <div className="col-6 image-cont">
+                  <img
+                    className="microsoft-cert"
+                    src={MicrosoftCert.AzureFUndamentals}
+                    alt="AZ-900"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="timeline-card timeline-card-primary card shadow-sm">
             <div className="card-body">
               <div className="row">
                 <div className="col-12 col-md-6">
@@ -45,7 +74,7 @@ const Certificiations = () => {
             </div>
           </div>
 
-          <div className="timeline-card timeline-card-primary card shadow-sm">
+          <div className="timeline-card timeline-card-success card shadow-sm">
             <div className="card-body">
               <div className="row">
                 <div className="col-12 col-md-6">
@@ -67,7 +96,7 @@ const Certificiations = () => {
             </div>
           </div>
 
-          <div className="timeline-card timeline-card-success card shadow-sm">
+          <div className="timeline-card timeline-card-primary card shadow-sm">
             <div className="card-body">
               <div className="row">
                 <div className="col-12 col-md-6">

@@ -64,3 +64,7 @@ export const SQLIntermediatePdf = () => {
     </div>
   );
 };
+
+export const MicrosoftCert = {
+  AzureFUndamentals: require("./Az-900.png"),
+};
