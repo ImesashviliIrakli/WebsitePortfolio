@@ -1,6 +1,6 @@
-import { Card } from 'react-bootstrap';
-import 'animate.css/animate.css';
-import './skills-form.styles.css';
+import { Card } from "react-bootstrap";
+import "animate.css/animate.css";
+import "./skills-form.styles.css";
 
 const SkillsForm = ({ source, cardTitle, cardText }) => {
   const cardTexts = cardText.map((text, index) => (
@@ -10,7 +10,7 @@ const SkillsForm = ({ source, cardTitle, cardText }) => {
   ));
   return (
     <div className="mt-4 card-scale col d-flex justify-content-center animate__animated animate__fadeInDown">
-      <Card style={{ width: '20rem', borderColor: 'black' }} className="card-scale">
+      <Card style={{ width: "20rem" }} className="skills-card">
         <div className="cardImg display-card">
           <Card.Img variant="top" className="iconSize my-4" src={source} />
         </div>

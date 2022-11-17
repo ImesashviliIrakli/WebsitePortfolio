@@ -3,10 +3,16 @@
 }
 
 .cardImg {
+  margin: 5px;
   background-color: #212529;
 }
 
 .display-card {
   display: flex;
   justify-content: center;
+}
+
+.skills-card {
+  width: "20rem";
+  border: 2px solid black;
 }
