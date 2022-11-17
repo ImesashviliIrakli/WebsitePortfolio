@@ -17,7 +17,28 @@ function Experience() {
                 <div className="text-muted text-small mb-2">
                   JUL/2022 - Present
                 </div>
-                <ul></ul>
+                <ul>
+                  <li>
+                    Gained experience in Azure cloud and was able to pass the
+                    az-900 exam.
+                  </li>
+
+                  <li>
+                    Grew my skills and gained knowledge in C# programming and
+                    .Net Framework.
+                  </li>
+
+                  <li>
+                    Created a project using the microservices architecture and
+                    several small MVC applications, which I then deployed to
+                    Azure.
+                  </li>
+
+                  <li>
+                    Gained knowledge and experience in No-SQL databases
+                    (MongoDb).
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
@@ -32,27 +53,32 @@ function Experience() {
                 </div>
                 <ul>
                   <li>
-                    Learned software engineering process improvements and best
-                    practices.
-                  </li>
-                  <li>
-                    Worked with mentor to learn best practices in software
-                    design.
-                  </li>
-                  <li>
-                    Improved C#/.NET, Javascript, markup and SQL skills through
-                    consistent hard work and dedication.
-                  </li>
-                  <li>
                     Collaborated with other developers to identify and alleviate
                     number of bugs and errors in software.
                   </li>
                   <li>
-                    Testes programs and databases to identify issues and make
+                    Tested programs and databases to identify issues and make
                     necessary modifications.
                   </li>
                   <li>
-                    Performed integration testing before launching applications.
+                    Created Front-End forms and Back-End logic for clients.
+                  </li>
+                  <li>
+                    Created stored procedures to insert transactions in the
+                    database using SQL.
+                  </li>
+                  <li>
+                    Worked together with client API's in order to successfully
+                    complete tasks.
+                  </li>
+                  <li>Created reports for clients using T-SQL. </li>
+                  <li>
+                    Learned software engineering best practices and process
+                    improvements.
+                  </li>
+                  <li>
+                    Worked with mentor to learn best practices in software
+                    design.
                   </li>
                 </ul>
               </div>
