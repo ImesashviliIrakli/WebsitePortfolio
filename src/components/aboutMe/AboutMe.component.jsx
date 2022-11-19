@@ -22,7 +22,7 @@ const AboutMe = () => {
           <br />
 
           <div className="row d-flex justify-content-center">
-            <p className="col-8 about">
+            <p className="col-12 col-md-8 about">
               Enthusiastic Software Engineer, eager to contribute to team
               success through hard work and dedication, attention to detail and
               excellent organizational skills. Clear understanding of
