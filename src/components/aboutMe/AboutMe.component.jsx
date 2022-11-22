@@ -24,10 +24,12 @@ const AboutMe = () => {
           <div className="row d-flex justify-content-center">
             <p className="col-12 col-md-8 about">
               Enthusiastic Software Engineer, eager to contribute to team
-              success through hard work and dedication, attention to detail and
-              excellent organizational skills. Clear understanding of
-              SQL,C#/.Net and React and training in SQl, .Net/C#. Motivated to
-              learn and grow.
+              success through hard work and dedication, attention to detail, and
+              excellent organizational skills. A clear understanding of SQL,
+              C#/.NET, React, and training in SQL, Net/C#. Motivated to learn
+              and grow. I also create posts about programming topics to develop
+              my theoretical knowledge in this profession and help others
+              achieve the same goal.
             </p>
           </div>
         </div>

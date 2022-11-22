@@ -20,23 +20,22 @@ function Experience() {
                 <ul>
                   <li>
                     Gained experience in Azure cloud and was able to pass the
-                    az-900 exam.
+                    AZ-900 exam.
                   </li>
 
                   <li>
-                    Grew my skills and gained knowledge in C# programming and
-                    .Net Framework.
+                    Grew my skills and knowledge in C# programming and .NET
+                    Framework.
                   </li>
 
                   <li>
-                    Created a project using the microservices architecture and
-                    several small MVC applications, which I then deployed to
-                    Azure.
+                    Created a project using microservices architecture and
+                    several small MVC applications and deployed it in Azure.
                   </li>
 
                   <li>
-                    Gained knowledge and experience in No-SQL databases
-                    (MongoDb).
+                    Gained knowledge and little experience in No-SQL databases
+                    (MongoDB).
                   </li>
                 </ul>
               </div>
@@ -54,31 +53,37 @@ function Experience() {
                 <ul>
                   <li>
                     Collaborated with other developers to identify and alleviate
-                    number of bugs and errors in software.
+                    many bugs and errors in software.
                   </li>
                   <li>
                     Tested programs and databases to identify issues and make
                     necessary modifications.
                   </li>
                   <li>
+                    Worked with a mentor to learn best practices in software
+                    design.
+                  </li>
+                  <li>
                     Created Front-End forms and Back-End logic for clients.
                   </li>
                   <li>
-                    Created stored procedures to insert transactions in the
-                    database using SQL.
+                    Created many SQL stored procedures to insert transactions in
+                    the database.
                   </li>
                   <li>
-                    Worked together with client API's in order to successfully
-                    complete tasks.
-                  </li>
-                  <li>Created reports for clients using T-SQL. </li>
-                  <li>
-                    Learned software engineering best practices and process
-                    improvements.
+                    Worked together with clients using their APIs to complete
+                    tasks.
                   </li>
                   <li>
-                    Worked with mentor to learn best practices in software
-                    design.
+                    Created countless reports for the providers using SQL.
+                  </li>
+                  <li>
+                    Learned software engineering process improvements and best
+                    practices.
+                  </li>
+                  <li>
+                    Improved C#/.NET, JavaScript, markup, and SQL skills through
+                    consistent hard work and dedication.
                   </li>
                 </ul>
               </div>
