@@ -4,9 +4,5 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 * {
-  font-family: 'BioRhyme', serif;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  font-family: "Saira", sans-serif;
 }
