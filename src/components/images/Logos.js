@@ -11,6 +11,7 @@ let allLogos = {
   emailLogo: require("./Contact/emailIcon.png"),
   locationLogo: require("./Contact/locationIcon.png"),
   cloudLogo: require("./cloud-storage.png"),
+  stackLogo: require("./stackoverflow.png"),
 };
 
 export default allLogos;

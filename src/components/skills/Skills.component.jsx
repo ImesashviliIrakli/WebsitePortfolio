@@ -1,9 +1,6 @@
 import allLogos from "../images/Logos.js";
 import SkillsForm from "../skills-form/skills-form.component";
 import "./Skills.styles.scss";
-import allLogos from "../images/Logos.js";
-import SkillsForm from "../skills-form/skills-form.component";
-import "./Skills.styles.scss";
 function Skills() {
   return (
     <div className="container skills-container">
