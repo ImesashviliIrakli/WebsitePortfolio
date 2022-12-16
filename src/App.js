@@ -4,6 +4,7 @@ import MainPage from "./routes/main-page/main-page.component";
 import SkillsPage from "./routes/skills-page/skills-page.component";
 import ExperiencePage from "./routes/experience-page/experience-page.component";
 import EducationCertificationsPage from "./routes/education-certifications-page/education-certifications-page.component";
+import StackOverflowPage from "./routes/stackOverflow-page/stackOverflow-page.component";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { Helmet } from "react-helmet";
 
@@ -32,6 +33,8 @@ function App() {
               path="/education-certifications"
               element={<EducationCertificationsPage />}
             />
+
+            <Route path="/my-stackoverflow" element={<StackOverflowPage />} />
           </Routes>
         </div>
       </div>
