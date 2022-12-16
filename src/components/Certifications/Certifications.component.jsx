@@ -53,15 +53,26 @@ const Certificiations = () => {
                   <div>
                     <ul>
                       <li>
-                        Learned basic, intermediate and advanced topics in C#
-                        and ASP.NET Core.
+                        Through challenging coursework, I learned the C# and
+                        ASP.NET Core programming languages, enabling the
+                        creation of sophisticated online apps.
                       </li>
                       <li>
-                        Created several Web Api's and console applications.
+                        Became proficient in using Entity Framework, LINQ,
+                        dependency injection and unit testing frameworks
                       </li>
                       <li>
-                        Had to work on many practice tasks and basic algorithms
-                        like sorting.
+                        Developed strong problem-solving skills during the
+                        course of the program, which has helped me in my career
+                        since then.
+                      </li>
+                      <li>
+                        Worked on practice tasks and algorithms, including
+                        sorting.
+                      </li>
+
+                      <li>
+                        Developed a number of console applications and Web APIs.
                       </li>
                     </ul>
                   </div>

@@ -19,8 +19,13 @@ function Experience() {
                 </div>
                 <ul>
                   <li>
-                    Gained experience in Azure cloud and was able to pass the
-                    AZ-900 exam.
+                    Developed advanced skills in C# programming and .NET
+                    Framework.
+                  </li>
+
+                  <li>
+                    Demonstrated expertise in Azure cloud by passing the AZ-900
+                    exam.
                   </li>
 
                   <li>
@@ -29,12 +34,12 @@ function Experience() {
                   </li>
 
                   <li>
-                    Created a project using microservices architecture and
-                    several small MVC applications and deployed it in Azure.
+                    Implemented a project using microservices architecture and
+                    several small MVC applications, deploying it in Azure.
                   </li>
 
                   <li>
-                    Gained knowledge and little experience in No-SQL databases
+                    Accrued knowledge and little experience in NoSQL databases
                     (MongoDB).
                   </li>
                 </ul>

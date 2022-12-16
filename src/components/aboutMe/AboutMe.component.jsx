@@ -1,7 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import { AiFillInstagram, AiFillGithub } from "react-icons/ai";
 import { SiDiscord } from "react-icons/si";
-import { BsLinkedin, BsFacebook } from "react-icons/bs";
+import { BsLinkedin, BsFacebook, BsStackOverflow } from "react-icons/bs";
 import { Link } from "react-router-dom";
 import "animate.css/animate.css";
 import "./AboutMe.styles.scss";
@@ -23,13 +23,13 @@ const AboutMe = () => {
 
           <div className="row d-flex justify-content-center">
             <p className="col-12 col-md-8 about">
-              Enthusiastic Software Engineer, eager to contribute to team
-              success through hard work and dedication, attention to detail, and
-              excellent organizational skills. A clear understanding of SQL,
-              C#/.NET, React, and training in SQL, Net/C#. Motivated to learn
-              and grow. I also create posts about programming topics to develop
-              my theoretical knowledge in this profession and help others
-              achieve the same goal.
+              Software engineer with a passion for helping teams succeed via
+              diligence, attention to detail, and superior organizational
+              abilities. a thorough knowledge of SQL, C#/.NET, React, and SQL,
+              Net/C# training. driven to develop new skills. In order to advance
+              my theoretical understanding of this field and assist others in
+              achieving the same objective, I also write blogs about
+              programming-related issues.
             </p>
           </div>
         </div>
@@ -41,12 +41,7 @@ const AboutMe = () => {
           >
             <BsLinkedin size={42} />
           </a>
-          <a
-            className="col-2 col-md-1 navigateButton"
-            href="https://github.com/ImesashviliIrakli"
-          >
-            <AiFillGithub size={42} />
-          </a>
+
           <a
             className="col-2 col-md-1 navigateButton"
             href="https://www.instagram.com/imesashvili_irakli/"
@@ -64,6 +59,20 @@ const AboutMe = () => {
             href="https://discordapp.com/users/800679340055461920"
           >
             <SiDiscord size={42} />
+          </a>
+
+          <a
+            className="col-2 col-md-1 navigateButton"
+            href="https://stackoverflow.com/users/15657255/imesashvili-irakli"
+          >
+            <BsStackOverflow size={42} />
+          </a>
+
+          <a
+            className="col-2 col-md-1 navigateButton"
+            href="https://github.com/ImesashviliIrakli"
+          >
+            <AiFillGithub size={42} />
           </a>
         </div>
 
