@@ -1,6 +1,15 @@
+.stack-card-body {
+  @media only screen and (max-width: 780px) {
+    img {
+      width: 100%;
+    }
+  }
+}
+
 .stack-card {
   border: 2px solid #2b2b2b;
 }
+
 .stack-header {
   background-color: #2b2b2b;
 }

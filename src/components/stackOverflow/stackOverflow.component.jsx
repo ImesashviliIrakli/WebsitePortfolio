@@ -1,4 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
+import "animate.css/animate.css";
 import "./stackOverflow.component.scss";
 import allLogos from "../images/Logos.js";
 import { React, useEffect, useState } from "react";
@@ -22,7 +23,7 @@ const StackOverflow = () => {
 
   return (
     <div className="container">
-      <div className="row d-flex justify-content-center ">
+      <div className="row d-flex justify-content-center animate__animated animate__fadeIn">
         {result.map((item, index) => {
           return (
             <div className="card mt-4" key={index} style={{ width: "80%" }}>
@@ -33,7 +34,7 @@ const StackOverflow = () => {
                   Click here to view question
                 </a>
               </div>
-              <div className="card-body">
+              <div className="stack-card-body card-body">
                 <div className="question-title card-title">
                   <h5>{item.title}</h5>
                 </div>
