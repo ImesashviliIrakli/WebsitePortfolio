@@ -23,13 +23,15 @@ const AboutMe = () => {
 
           <div className="row d-flex justify-content-center">
             <p className="col-12 col-md-8 about">
-              Software engineer with a passion for helping teams succeed via
-              diligence, attention to detail, and superior organizational
-              abilities. a thorough knowledge of SQL, C#/.NET, React, and SQL,
-              Net/C# training. driven to develop new skills. In order to advance
-              my theoretical understanding of this field and assist others in
-              achieving the same objective, I also write blogs about
-              programming-related issues.
+              Software Engineer with a drive to support teams in reaching their
+              full potential through diligent efforts, meticulous attention to
+              detail, and exceptional organizational abilities. Possessing a
+              comprehensive understanding of SQL, C#/.NET, and SQL, and
+              continuously seeking opportunities to expand my skill set.
+              Committed to sharing my knowledge with others and advancing the
+              field, demonstrated by writing informative content on programming
+              topics. Dedicated to continually developing my expertise and
+              making a positive impact in the industry.
             </p>
           </div>
         </div>

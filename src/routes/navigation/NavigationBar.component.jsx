@@ -32,9 +32,9 @@ const NavigationBar = () => {
                 <Link className="col nav-link" to="/education-certifications">
                   Education
                 </Link>
-                <Link className="col nav-link" to="/my-stackoverflow">
+                {/* <Link className="col nav-link" to="/my-stackoverflow">
                   StackOverflow
-                </Link>
+                </Link> */}
               </div>
             </Nav>
           </Navbar.Collapse>
