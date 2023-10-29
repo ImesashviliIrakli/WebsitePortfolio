@@ -3,10 +3,7 @@ import "./Certifications.styles.scss";
 import "animate.css/animate.css";
 import {
   RenderEpamPdf,
-  CSharpBasicPdf,
-  SQLBasicPdf,
-  SQLIntermediatePdf,
-  MicrosoftCert,
+  MicrosoftCert
 } from "../render-pdfs/render-pdfs.component";
 
 const Certificiations = () => {
@@ -80,69 +77,6 @@ const Certificiations = () => {
 
                 <div className="col-6">
                   <RenderEpamPdf />
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="timeline-card timeline-card-success card shadow-sm">
-            <div className="card-body">
-              <div className="row">
-                <div className="col-12 col-md-6">
-                  <div className="h5 mb-1">C# (Basic) </div>
-                  <h6 className="text-muted">Hacker rank</h6>
-                  <div className="text-muted text-small mb-2">JAN/2022</div>
-                  <a
-                    className="col-md-6 col-8 navigateButton"
-                    href="https://www.hackerrank.com/certificates/1810861fea69"
-                  >
-                    Credential URL
-                  </a>
-                </div>
-
-                <div className="col-6">
-                  <CSharpBasicPdf />
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="timeline-card timeline-card-primary card shadow-sm">
-            <div className="card-body">
-              <div className="row">
-                <div className="col-12 col-md-6">
-                  <div className="h5 mb-1">
-                    SQL (Basic) and SQL (Intermediate)
-                  </div>
-                  <h6 className="text-muted">Hacker rank</h6>
-                  <div className="text-muted text-small mb-2">DEC/2021</div>
-                  <div>
-                    <a
-                      className="col-md-6 col-8 navigateButton"
-                      href="https://www.hackerrank.com/certificates/104484e27a90"
-                    >
-                      SQL (Basic) Credential URL
-                    </a>
-                  </div>
-
-                  <div>
-                    <a
-                      className="col-md-6 col-8 navigateButton"
-                      href="https://www.hackerrank.com/certificates/a101071c1473"
-                    >
-                      SQL (Intermediate) Credential URL
-                    </a>
-                  </div>
-                </div>
-                <div className="col-6">
-                  <div className="row">
-                    <div className="col">
-                      <SQLBasicPdf />
-                    </div>
-                    <div className="col">
-                      <SQLIntermediatePdf />
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
